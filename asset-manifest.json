@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/pedro_perdo_meme/static/css/main.aa37e8f0.css",
+    "main.js": "/pedro_perdo_meme/static/js/main.b3601940.js",
+    "static/js/453.a5ea1969.chunk.js": "/pedro_perdo_meme/static/js/453.a5ea1969.chunk.js",
+    "static/media/pedro-meme-song.mp3": "/pedro_perdo_meme/static/media/pedro-meme-song.507d9724a445cfc2d643.mp3",
+    "static/media/pedro-picture.jpg": "/pedro_perdo_meme/static/media/pedro-picture.02fd91c73ca3c880559d.jpg",
+    "index.html": "/pedro_perdo_meme/index.html",
+    "main.aa37e8f0.css.map": "/pedro_perdo_meme/static/css/main.aa37e8f0.css.map",
+    "main.b3601940.js.map": "/pedro_perdo_meme/static/js/main.b3601940.js.map",
+    "453.a5ea1969.chunk.js.map": "/pedro_perdo_meme/static/js/453.a5ea1969.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa37e8f0.css",
+    "static/js/main.b3601940.js"
+  ]
+}
