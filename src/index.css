@@ -5,9 +5,112 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.pedro-header, .pedro {
+  overflow: hidden;
+}
+
+.pedro-header {
+  padding-top: 2vw;
+  color: white;
+}
+
+
+@keyframes rotatedbounce {
+  0% {
+    transform: rotate(0deg) translateY(0);
+  }
+  5% {
+    transform: rotate(-18deg) translate(-10px, -30px);
+  }
+  10% {
+    transform: rotate(-36deg) translateY(0);
+  }
+  15% {
+    transform: rotate(-54deg) translate(-10px, -30px);
+  }
+  20% {
+    transform: rotate(-72deg) translateY(0);
+  }
+  25% {
+    transform: rotate(-90deg) translate(-10px, -30px);
+  }
+  30% {
+    transform: rotate(-108deg) translateY(0);
+  }
+  35% {
+    transform: rotate(-126deg) translate(-10px, -30px);
+  }
+  40% {
+    transform: rotate(-144deg) translateY(0);
+  }
+  45% {
+    transform: rotate(-162deg) translate(-10px, -30px);
+  }
+  50% {
+    transform: rotate(-180deg) translateY(0);
+  }
+  55% {
+    transform: rotate(-198deg) translate(-10px, -30px);
+  }
+  60% {
+    transform: rotate(-216deg) translateY(0);
+  }
+  65% {
+    transform: rotate(-234deg) translate(-10px, -30px);
+  }
+  70% {
+    transform: rotate(-252deg) translateY(0);
+  }
+  75% {
+    transform: rotate(-270deg) translate(-10px, -30px);
+  }
+  80% {
+    transform: rotate(-288deg) translateY(0);
+  }
+  85% {
+    transform: rotate(-306deg) translate(-10px, -30px);
+  }
+  90% {
+    transform: rotate(-324deg) translateY(0);
+  }
+  95% {
+    transform: rotate(-342deg) translate(-10px, -30px);
+  }
+  100% {
+    transform: rotate(-360deg) translateY(0px);
+  }
+}
+
+.pedro {
+  background-color: white;
+  width: 250px;
+  border-radius: 100%;
+  margin-top: 5%;
+}
+
+.pedro-pic {  
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  animation-name: rotatedbounce;
+  animation-duration: 4.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 3.5s;
 }

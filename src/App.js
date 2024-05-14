@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import React, { useEffect } from 'react';
 import './App.css';
+import pedro_pic from './pedro-picture.jpg';
+import pedroSongFile from './pedro-meme-song.mp3';
 
 function App() {
+  useEffect(() => {
+    const pedroSong = new Audio(pedroSongFile);
+    pedroSong.play();
+
+    return () => {
+      pedroSong.pause();
+    };
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container'>
+      <div className='pedro-header'><h1>Pedro Meme</h1></div>
+      <div className='pedro'><img src={pedro_pic} alt='pedro-pic' className='pedro-pic' /></div>
     </div>
   );
 }
